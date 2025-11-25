@@ -71,3 +71,8 @@ app.get('/req', (req, res) => {
 app.get("/meunome", (req, res) => {
   res.send("Meu nome é Henrique Takume");
 });
+
+// 2-) 
+app.get("/tico", (req, res) => {
+  res.send("teco");
+});
