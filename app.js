@@ -76,3 +76,21 @@ app.get("/meunome", (req, res) => {
 app.get("/tico", (req, res) => {
   res.send("teco");
 });
+
+// 3-)
+app.get("/pokemons", (req, res) => {
+  const pokemons = [
+    "Caterpie",
+    "Pidgeotto",
+    "Bulbasaur",
+    "Charmander",
+    "Squirtle",
+    "Krabby",
+    "Primeape",
+    "Muk",
+    "Tauros",
+    "Lapras"
+  ];
+
+  res.json(pokemons);
+});
