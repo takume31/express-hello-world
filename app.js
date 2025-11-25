@@ -94,3 +94,14 @@ app.get("/pokemons", (req, res) => {
 
   res.json(pokemons);
 });
+
+// 4-)
+app.get("/anime", (req, res) => {
+  const anime = [
+    "Demonio Slayer",
+    "Classroom of the Elite",
+    "Kage no Jitsuryokusha ni Naritakute!",
+  ];
+
+  res.json(anime);
+});
