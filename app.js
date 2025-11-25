@@ -65,3 +65,9 @@ app.get('/req', (req, res) => {
     console.log("Just got a request!")
     res.send('Yo!')
 })
+
+
+// 1-)
+app.get("/meunome", (req, res) => {
+  res.send("Meu nome é Henrique Takume");
+});
